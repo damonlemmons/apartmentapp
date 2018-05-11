@@ -16,11 +16,9 @@ class App extends Component {
               <Route exact path="/" component={AptIndex} />
               <Route path='/Apts/:id' component={AptDetail} />
               <Route component={Oops} />
-
             <div>
           <Footer />
         </div>
-
       </div>
       </Switch>
     );
